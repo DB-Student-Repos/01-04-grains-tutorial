@@ -1,6 +1,6 @@
 def square(number):
     if(number<1 or number>64):
-        print("Invalid Input")
+        raise ValueError("Invalid Input")
     else:
         return 2**(number-1)
     
